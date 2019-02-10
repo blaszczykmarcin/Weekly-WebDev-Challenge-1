@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 15px 20px;
+    background-color: $form-background-color1;
+    border-radius: 2px;
+
+    &__container {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        margin-top: 20px;
+
+        &__icon {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            border-right: 1px solid $input-border-color;
+            padding-right: 15px;
+            font-size: 18px;
+            color: $input-icon-color;
+        }
+
+        &__input-field {
+            width: 100%;
+            height: 100%;
+            padding-left: 60px;
+            border-radius: 3px;
+            box-shadow: 1px 1.732px 0px #ffffff;
+            background-color: #f8f8f8;
+            border: 1px solid $input-border-color;
+            color: $text-color;
+        }
+
+    }
+
+}

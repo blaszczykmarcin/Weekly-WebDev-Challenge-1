@@ -1,0 +1,22 @@
+.form-wrap {
+    max-width: 420px;
+    margin: 0 auto;
+
+    &__title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        color: $white;
+        text-shadow: 1px 1.732px 2px $form-wrapper-title-color;
+    }
+
+    &__shadow {
+        top: 0;
+        left: 0;
+        background-color: $form-wrapper-shadow-color;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px 20px;
+    }
+
+}

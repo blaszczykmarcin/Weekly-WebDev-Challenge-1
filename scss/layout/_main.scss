@@ -1,0 +1,12 @@
+@include desktop {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .form-wrap {
+        width: 420px;
+
+    }
+}

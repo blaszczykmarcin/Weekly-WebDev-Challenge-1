@@ -1,0 +1,40 @@
+.button {
+    font-size: 18px;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: 500;
+    text-shadow: 0.559px 0.829px 0px $button-shadow-color;
+    box-shadow: 0.559px 0.829px 0px $button-shadow-color;
+    transition: .5s;
+    color: $white;
+    cursor: pointer;
+
+
+    &:active {
+        box-shadow: none;
+        text-shadow: none;
+    }
+
+
+}
+
+.btn-green-wide {
+    @include button-theme($button-bgc-color, $button-border-color, 100%);
+}
+
+.btn-green-small {
+    @include button-theme($button-bgc-color, $button-border-color, 45%);
+
+
+}
+
+
+.btn-red-small {
+    @include button-theme($button-bgc-red, $button-border-red, 45%);
+
+}
+
+.btn-small-white {
+    @include button-theme($button-bgc-green-white, $button-border-green-white, 45%);
+
+}

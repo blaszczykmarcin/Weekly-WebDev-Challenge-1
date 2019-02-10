@@ -1,0 +1,25 @@
+@mixin button-theme($btn-bgc-color, $btn-border-color, $btn-width) {
+
+    width: $btn-width;
+    background-color: $btn-bgc-color;
+    border: 1px solid $btn-border-color;
+}
+
+@mixin checkbox-align($checkbox-align) {
+    justify-content: $checkbox-align;
+}
+
+
+
+// Media Queries
+
+
+
+@mixin desktop {
+
+    @media(min-width: 1024px) {
+        @content;
+
+    }
+
+}

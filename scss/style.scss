@@ -1,0 +1,23 @@
+// *** Settings ***
+@import 'settings/colors';
+@import 'settings/reset';
+@import 'settings/mixins';
+
+// *** Variables *** 
+
+@import 'settings/variables';
+
+
+// *** Components ***
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'layout/form';
+@import 'layout/checkbox';
+@import 'layout/button';
+@import 'layout/textarea';
+
+// *** Wrappers ***
+
+@import 'layout/main_wrapper';
+@import 'layout/form_wrapper';

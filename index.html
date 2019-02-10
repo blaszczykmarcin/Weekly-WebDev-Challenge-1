@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weekly WebDev Challenge no 1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" class="rel">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <img class="header__img" src="images/logo.png" alt="logo">
+        </header>
+        <main class="main">
+            <aside class="main__column">
+                <!-- FIRST FORM - REGISTER FORM -->
+                <div class="form-wrap">
+                    <h1 class="form-wrap__title">Register Form</h1>
+                    <div class="form-wrap__shadow">
+                        <form class="form">
+                            <div class="form__container">
+                                <i class="fas fa-user form__container__icon"></i>
+                                <input type="text" value="Username" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-lock form__container__icon"></i>
+                                <input type="text" value="Password" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-lock form__container__icon"></i>
+                                <input type="text" value="Confirm Password" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-envelope form__container__icon"></i>
+                                <input type="text" value="Email" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-map-marker-alt form__container__icon"></i>
+                                <select name="Location" class="form__container__input-field">
+                                    <option value="your">Your Location</option>
+                                    <option value="katowice">Katowice</option>
+                                    <option value="warszawa">Warszawa</option>
+                                    <option value="gdynia">Gdynia</option>
+                                </select>
+                            </div>
+                            <div class="checkbox checkbox-align-left">
+                                <div class="checkbox__rectangle">
+                                    <div class="checkbox__rectangle__inside"></div>
+                                </div>
+                                <label class="checkbox__label"> I have read andaccept the terms of use.</label>
+                            </div>
+                            <button class="button btn-green-wide" href="#">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- FIRST FORM - END -->
+
+                <!-- FOURTH FORM - SEND EMAIL -->
+                <div class="form-wrap">
+                    <h1 class="form-wrap__title">Send Email</h1>
+                    <div class="form-wrap__shadow">
+                        <form class="form">
+                            <div class="form__container">
+                                <i class="fas fa-user form__container__icon"></i>
+                                <input type="text" value="Your Name" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-envelope form__container__icon"></i>
+                                <input type="text" value="Your Email" class="form__container__input-field">
+                            </div>
+                            <div class="textarea-container">
+                                <textarea class="textarea-container__input form__container__input-field" rows="4" cols="1">Type your message ...  </textarea>
+                            </div>
+                            <div class="checkbox checkbox-align-left">
+                                <div class="checkbox__rectangle">
+                                    <div class="checkbox__rectangle__inside"></div>
+                                </div>
+                                <label class="checkbox__label"> Send copy to my Email.</label>
+
+                            </div>
+                            <button class="button btn-green-wide" href="#">Send Email</button>
+                        </form>
+                        <!-- FOURTH FORM - END -->
+                    </div>
+                </div>
+
+            </aside>
+            <aside class="main__column">
+                <!-- SECOND FORM - SIGN IN FORM -->
+                <div class="form-wrap">
+                    <h1 class="form-wrap__title">Sign In Form</h1>
+                    <div class="form-wrap__shadow">
+                        <form class="form">
+                            <div class="form__container">
+                                <i class="fas fa-user form__container__icon"></i>
+                                <input type="text" value="Username" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-lock form__container__icon"></i>
+                                <input type="text" value="Password" class="form__container__input-field">
+                            </div>
+                            <div class="checkbox checkbox-align-right">
+                                <div class="checkbox__rectangle">
+                                    <div class="checkbox__rectangle__inside"></div>
+                                </div>
+                                <label class="checkbox__label checkbox__label-small">Remember me.</label>
+
+                                <button class="button btn-green-small" href="#">Sign in</button>
+                            </div>
+                        </form>
+                        <!-- END SECOND FORM -->
+                    </div>
+                </div>
+                <!-- THIRD FORM - RECOVER FORM -->
+                <div class="form-wrap">
+                    <h1 class="form-wrap__title">Recover Form</h1>
+                    <div class="form-wrap__shadow">
+                        <form class="form">
+                            <div class="form__container">
+                                <i class="fas fa-envelope form__container__icon"></i>
+                                <input type="text" value="Enter your Email" class="form__container__input-field">
+                            </div>
+                            <div class="form__container">
+                                <i class="fas fa-mobile-alt form__container__icon"></i>
+                                <input type="text" value="Enter your Phone number" class="form__container__input-field">
+                            </div>
+                            <div class="checkbox checkbox-align-center">
+                                <button class="button btn-green-small">Send</button>
+                                <button class="button btn-small-white">Done</button>
+                            </div>
+                        </form>
+                        <!-- END THIRD FORM -->
+                    </div>
+                </div>
+                <!-- FIFTH FORM - SUBSCRIBE FORM -->
+                <div class="form-wrap">
+                    <h1 class="form-wrap__title">Subscribe Form</h1>
+                    <div class="form-wrap__shadow">
+                        <form class="form">
+                            <div class="form__container">
+                                <i class="fas fa-envelope form__container__icon"></i>
+                                <input type="text" value="Enter your Email" class="form__container__input-field">
+                            </div>
+                            <div class="checkbox checkbox-align-center">
+                                <button class="button btn-green-small">Subscribe</button>
+                                <button class="button btn-red-small">No, Thanks</button>
+                            </div>
+                        </form>
+                        <!-- END FIFTH FORM -->
+                    </div>
+                </div>
+                <div class="footer">
+                    <img class="footer__img" src="images/logo2.png" alt="logo">
+                </div>
+            </aside>
+        </main>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
